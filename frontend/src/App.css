@@ -1,0 +1,14 @@
+.flexContainer{
+  display: flex;
+  flex-direction: row;
+}
+.navigation{
+  height: 100vh;
+}
+
+.page{
+  flex: 1;
+}
+body{
+  background-color: #f0f0f0;
+}

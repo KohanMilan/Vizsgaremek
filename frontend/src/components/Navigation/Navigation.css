@@ -1,0 +1,16 @@
+.DrawerContainer{
+    height: 100vh;
+    box-shadow: 4px 0px rgba(0, 0, 0, 0.189);
+    background-color: silver;
+    
+}
+
+.hamburger{
+    position: absolute;
+    z-index: 999999;
+}
+.closeIcon{
+   display:flex;
+   justify-content: end;
+  
+}

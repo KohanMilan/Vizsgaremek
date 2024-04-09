@@ -1,0 +1,23 @@
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    gap:15px
+}
+
+.textArea{
+    height: 200px;
+}
+
+.uploadedImage{
+    max-width: 100%;
+}
+
+.gps{
+    display: flex;
+    flex-direction: row;
+}
+
+.gpsButton{
+    margin-top:10px;
+    width: 100%;
+}

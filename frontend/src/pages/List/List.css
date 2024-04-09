@@ -1,0 +1,11 @@
+.addButton{
+    width:100%;
+
+    display: flex;
+    justify-content: end;
+    
+}
+.addButton>*{
+    margin:15px;
+}
+

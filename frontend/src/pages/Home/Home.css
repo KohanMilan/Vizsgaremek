@@ -1,0 +1,76 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.summary {
+    margin-bottom: 350px;
+}
+
+.animation {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-container {
+    display: flex;
+    position: relative;
+}
+
+.earth {
+    width: 180px;
+    height: 180px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    animation: rotateEarth 10s linear infinite;
+    position: absolute;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    top: calc(70% - 108px);
+    /* Függőleges középre pozícionálás */
+    left: calc(50% - 75px);
+    /* Vízszintes középre pozícionálás */
+}
+
+.camera-icon {
+    width: 750px;
+    height: 500px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Camera-solid.svg/640px-Camera-solid.svg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: calc(50% - 50px);
+    /* Függőleges középre pozícionálás */
+    left: calc(50% - -140px);
+    /* Vízszintes középre pozícionálás */
+}
+
+@keyframes rotateEarth {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
