@@ -25,7 +25,7 @@ Használati útmutató:
 
     • Záró lépésként implementáljuk a Visual Studio Code-ot, melyet az alábbi webhelyről tölthetünk le és telepíthetünk: https://code-visualstudio.com/
 
-    • A Visual Studio Code beépített termináljában futtassuk a "npm install" parancsot az összes szükséges modul telepítéséhez. Ezt követően az "npm start" paranccsal indítsuk el az alkalmazást, melyet a http://localhost:3000/Login címen érhetünk el.
+    • A Visual Studio Code beépített termináljában futtassuk a "npm install" parancsot az összes szükséges modul telepítéséhez. Ha ez nem indítaná el teljesen akkor kikell adni az "npm install --legacy-peer-deps" parancsot hogy futtassuk. Ezt követően az "npm start" paranccsal indítsuk el az alkalmazást, melyet a http://localhost:3000/Login címen érhetünk el.
 
 
 <br />     
